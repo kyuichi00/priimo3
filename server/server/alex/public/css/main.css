@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-section{
+    height: calc(100% - 90px);
+}
+
+textarea{
+    resize: none;
+}
+
+.search { position: relative; margin-bottom: 5px;}
+
+.search-bar{
+    width: 20%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /*background-image: url('/images/icon/searchicon.png');*/
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 2s ease-in-out;
+}
+
+.search-bar:focus {
+    width: 40%;
+    outline: none;
+}
+.find_frineds_name{
+    padding:3px;
+}
+.finger{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.already_liked{
+    color:#06b506;
+}
+td{
+    cursor:pointer;
+}
+.text_dote{
+    display:inline-block;
+    /*width:80%;*/
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+
+}
+.first_star{
+    font-size: 15px;
+    border: 1px solid transparent;
+    padding: 2px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #f15c4f;
+    margin-right: 1%;
+}
